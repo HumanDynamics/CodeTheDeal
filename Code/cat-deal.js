@@ -42,28 +42,18 @@ var nodes =
 { "name": "core/id/andrea_ang", "imports": [ "core/class/ID_She" ] }, 
 { "name": "core/class/Doc_Table", "imports": [ ] }, 
 { "name": "core/re/patent/us/20070233782_A1", "imports": [ ] }, 
-{ "name": "core/at/USA/MA/Middlesex/Somerville/Geo", "imports": [ "core/at/USA/MA/Middlesex/Geo" ] }, 
 { "name": "core/class/ID_She", "imports": [ "core/class/ID_Individual" ] }, 
 { "name": "core/id/roberta_robinson", "imports": [ "core/class/ID_She", "core/at/USA/NY/Ulster/Woodstock/Geo" ] }, 
-{ "name": "core/at/USA/MA/Middlesex/Cambridge/Geo", "imports": [ "core/at/USA/MA/Middlesex/Geo" ] }, 
 { "name": "core/ids/hazardj", "imports": [ "core/id/hazardj", "core/at/USA/MA/Middlesex/Cambridge/Broadway/1/Geo", "core/id/hazardj" ] }, 
 { "name": "core/class/ID_Entity", "imports": [ "core/class/ID" ] }, 
 { "name": "core/id/acme_incorporated", "imports": [ "core/class/ID_Entity", "core/id/the_corporation_company", "core/id/andrea_ang" ] }, 
-{ "name": "core/at/USA/MA/Geo", "imports": [ "core/at/USA/Geo" ] }, 
 { "name": "core/id/hazardj", "imports": [ "core/class/ID_He", "core/at/USA/MA/Middlesex/Somerville/Geo" ] }, 
 { "name": "core/class/ID_Individual", "imports": [ "core/class/ID" ] }, 
-{ "name": "core/at/USA/NY/Ulster/Geo", "imports": [ "core/at/USA/NY/Geo" ] }, 
 { "name": "core/form/agt/ip/assignment/Patent_Assignment_Form", "imports": [ "core/class/Doc_Table" ] }, 
 { "name": "core/id/the_corporation_company", "imports": [ "core/class/ID_Entity" ] }, 
 { "name": "core/class/ID", "imports": [ ] }, 
-{ "name": "core/at/USA/MA/Middlesex/Cambridge/Broadway/1/Geo", "imports": [ "core/at/USA/MA/Middlesex/Cambridge/Broadway/Geo" ] }, 
 { "name": "event/ip/assignment/Patent_Assignment_Acme", "imports": [ "core/form/agt/ip/assignment/Patent_Assignment_Form", "core/id/acme_incorporated", "core/ids/hazardj", "core/id/roberta_robinson", "core/re/patent/us/20070233782_A1" ] }, 
 { "name": "core/class/ID_He", "imports": [ "core/class/ID_Individual" ] }, 
-{ "name": "core/at/USA/MA/Middlesex/Cambridge/Broadway/Geo", "imports": [ "core/at/USA/MA/Middlesex/Cambridge/Geo" ] }, 
-{ "name": "core/class/Geo_USA", "imports": [ ] }, { "name": "core/at/USA/Geo", "imports": [ "core/class/Geo_USA" ] }, 
-{ "name": "core/at/USA/NY/Ulster/Woodstock/Geo", "imports": [ "core/at/USA/NY/Ulster/Geo" ] }, 
-{ "name": "core/at/USA/MA/Middlesex/Geo", "imports": [ "core/at/USA/MA/Geo" ] }, 
-{ "name": "core/at/USA/NY/Geo", "imports": [ "core/at/USA/Geo" ] } 
 ];
 
 /*
