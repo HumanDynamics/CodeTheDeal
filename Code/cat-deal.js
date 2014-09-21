@@ -28,6 +28,15 @@ var palette = {
       "yellowgreen": "#738A05"
   }
 
+/*
+Manual data entry below O_o
+
+Each element in this JSON array defines nodes and their connections in the graph. 
+
+If a value in the "imports" array matches one of the values of the "name" of one of these elements,
+a line will be drawn between them.
+*/
+
 var nodes = 
 [ 
 { "name": "core/id/andrea_ang", "imports": [ "core/class/ID_She" ] }, 
